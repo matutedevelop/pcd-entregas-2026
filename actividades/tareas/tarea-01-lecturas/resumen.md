@@ -22,9 +22,32 @@ el documento empieza describiendo las diferentes aplicaciones de ML en el negoci
 
 definir el problema -> recoger datos -> tratamiento de datos -> definicion de metricas -> EDA -> entrenamiento de modelo -> deploy del modelo -> release y monitoreo
 
+despues pasa a mencionar ejemplos de productos de ML en los que la adopcion de MLOps es sumamente beneficioso
+
+posteriormente compara MLOps contra su primo mayor DevOps. Donde lo mas destacable es que se añaden las tareas de entrenamiento, observabilidad y back testing de los modelos
+
+
 # Diferencias
+
+las 2 fuentes tienen temas diferentes como topico principal, no obstante ambos proveen al final del documento  lo que para los respectivos autores consiste el flujo de MLOps. Como es de esperarse, ambos ciclos son relativamente parecidos la unica diferencia es el punto 3 de `automation` de el documento de red hat, que dedica un punto especifico al packaging o contenerizacion del modelo. lo demas resulta similar, aunque evidentemente el documento de red hat es mas introductorio y general
 
 
 # problemas que resuelve
 
+Lo que yo considero que es de los mayores gains del flujo de MLOps contra el flujo manual arcaico de un Scientist o researcher normal es el hecho de la reproducibilidad y el testing sin estas 2 cosas es mucho mas complicado y riesgoso el deploy de productos de ML confiables y robustos. 
 
+Desde algo tan sencillo como la evaluacion de metricas con una seed local y con los parametros optimizados en un computo local, cuidar ese tipo de cosas es importante para productos robustos y confiables
+
+
+
+# Que espero aprender
+
+
+Siendo concisos lo que me encantaria aprender de MLOps es aquellas partes relacionadas directamente con el desarrollo del modelo, es decir aquellas tareas posteriores a la ingieneria de datos. Me encantaria
+aprender de versionado de modelos y todo aquello de control de experimentos
+
+# Enlaces
+
+https://www.redhat.com/en/topics/ai/what-is-mlops
+
+https://www.fiddler.ai/blog/mlops-lifecycle
