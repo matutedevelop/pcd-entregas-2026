@@ -1,0 +1,9 @@
+/home/arroio/ITESO/SEM5/PCD/pcd-entregas-2026/.devenv/bootstrap/bootstrapLib.nix
+/home/arroio/ITESO/SEM5/PCD/pcd-entregas-2026/.devenv/bootstrap/default.nix
+/home/arroio/ITESO/SEM5/PCD/pcd-entregas-2026/.devenv/bootstrap/resolve-lock.nix
+/home/arroio/ITESO/SEM5/PCD/pcd-entregas-2026/devenv.local.nix
+/home/arroio/ITESO/SEM5/PCD/pcd-entregas-2026/devenv.lock
+/home/arroio/ITESO/SEM5/PCD/pcd-entregas-2026/devenv.nix
+/home/arroio/ITESO/SEM5/PCD/pcd-entregas-2026/devenv.yaml
+/home/arroio/.config/nixpkgs/overlays
+/home/arroio/.config/nixpkgs/overlays.nix
