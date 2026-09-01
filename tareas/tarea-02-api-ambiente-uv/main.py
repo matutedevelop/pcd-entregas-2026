@@ -29,6 +29,8 @@ def estimar_duracion(
 
 def resumir_viajes(viajes: list[dict]) -> list[dict]:
     """Agrega una duración estimada a cada viaje sin modificar el original."""
+    # if viajes is None:
+    #     viajes = VIAJES
 
     viajes_modified = [deepcopy(v) for v in viajes]
 
@@ -40,19 +42,21 @@ def resumir_viajes(viajes: list[dict]) -> list[dict]:
 
 @app.get("/")
 def home():
+    """home endpoint"""
     return {"message": "pending"}
 
 
 @app.get("/api/v1/viajes")
 def viajes_resume() -> dict[str, Any]:
-    return {f"{v['origen']} - {v['destino']}": resumir_viajes(v) for v in VIAJES}
+    """log viajes registered"""
+    return {f"{v['origen']} - {v['destino']}": v for v in resumir_viajes(VIAJES)}
 
 
 @app.get("/api/v1/duracion/{distancia_km}")
 def duracion(
     distancia_km: float, pasajeros: int = 1, fin_de_semana: bool = False
 ) -> dict[str, Any]:
-
+    """calculate the estimated duration of a trip based on passed parameters"""
     return {
         "distancia_km": distancia_km,
         "pasajeros": pasajeros,
