@@ -7,6 +7,7 @@
   # https://devenv.sh/packages/
   packages = [
     pkgs.git
+    pkgs.zlib
   ];
 
   # https://devenv.sh/languages/
