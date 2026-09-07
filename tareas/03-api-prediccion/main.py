@@ -6,8 +6,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 
 RAIZ = Path(__file__).resolve().parents[2]
-RUTA_MODELO_LINEAL = RAIZ / "artifacts/nyc-taxi/lr-model-duracion-2.pkl"
-RUTA_MODELO_RF = RAIZ / "artifacts/nyc-taxi/rf-model-duracion-1.pkl"
+RUTA_MODELO_RF = RAIZ / "artifacts/nyc-taxi/modelo-duracion-bosque.pkl"
+RUTA_MODELO_LINEAL = RAIZ / "artifacts/nyc-taxi/modelo-duracion-lineal.pkl"
 with RUTA_MODELO_LINEAL.open("rb") as archivo:
     artefacto_lr = pickle.load(archivo)
 
