@@ -36,3 +36,10 @@ limitaciones
 - dependencias. Con los pickle hasta donde tengo entendido no se pinnea las dependencias y carga todo el boilerplate de las clases de sklearn entonces digamos por ejemplo actualizamos el python que utiliza nuestro servidor de fastapi a 3.14, y supongamos que esta version es incompatible con algunas cosas de sklearn que utiliza nuestro modelo o con alguna de sus dependencias. Entonces tendriamos errores inesperados e impredecibles.
 
 
+
+# Evidencia
+
+![Respuesta válida modelo lineal](./evidencia/lr_pet_200.png)
+![Respuesta válida modelo random forest](./evidencia/rf_pet_200.png)
+![Error por campo faltante](./evidencia/missing_field_req.png)
+![Error por campo inválido](./evidencia/invalid_req_field.png)
