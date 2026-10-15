@@ -1,0 +1,25 @@
+{
+  "generado_utc": "2026-10-14T20:37:26+00:00",
+  "n_trials": {
+    "linear_regression": 2,
+    "random_forest": 7,
+    "gradient_boosting": 7
+  },
+  "parametros": {
+    "linear_regression": {
+      "fit_intercept": false
+    },
+    "random_forest": {
+      "n_estimators": 100,
+      "max_depth": 18,
+      "min_samples_leaf": 2
+    },
+    "gradient_boosting": {
+      "n_estimators": 149,
+      "learning_rate": 0.6392850054868555,
+      "max_depth": 3,
+      "min_samples_split": 11,
+      "min_samples_leaf": 18
+    }
+  }
+}
